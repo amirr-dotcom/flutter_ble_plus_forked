@@ -1,8 +1,11 @@
+## 2.3.3
+* **[Improve]** add back `winrt` dependency now that it is updated
+
 ## 2.3.2
 * **[Improve]** docs & readme
 
 ## 2.3.1
-* **[Improve]** remove `winrt` as an explicit dependency. Windows users should use this:
+* **[Improve]** tempoarily remove `winrt` as an explicit dependency. Windows users should use this:
 
 ```yaml
 dependencies:
