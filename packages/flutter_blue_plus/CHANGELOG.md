@@ -1,3 +1,6 @@
+## 2.3.4
+* **[Improve]** Rename: `License.free` to `Licenese.nonprofit` for clarity
+
 ## 2.3.3
 * **[Improve]** add back `winrt` dependency now that it is updated
 
