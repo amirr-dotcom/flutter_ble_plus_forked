@@ -60,7 +60,7 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "2.3.5"
+    version: "2.3.6"
   flutter_blue_plus_android:
     dependency: "direct overridden"
     description:
@@ -88,7 +88,7 @@ packages:
       path: "../../flutter_blue_plus_platform_interface"
       relative: true
     source: path
-    version: "9.0.0"
+    version: "9.0.1"
   flutter_blue_plus_web:
     dependency: "direct overridden"
     description:

@@ -1,3 +1,6 @@
+## 2.3.7
+* **[Fix]** pub.dev dependency resolution error (regression 2.3.6)
+
 ## 2.3.6
 * **[Fix]** Darwin: crash when calling `setOptions` with a single argument (regression 2.3.0)
 

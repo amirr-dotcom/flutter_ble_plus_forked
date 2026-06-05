@@ -1,3 +1,6 @@
+## 9.0.1
+* **[Release]** version bump to publish the updated `flutter_blue_plus_platform_interface: ^9.0.0` dependency
+
 ## 9.0.0
 * **[Fix]** Linux: improve characteristic `instanceId` resolution when multiple services share the same UUID
 * **[Improve]** Linux: remove `rxdart` dependency
