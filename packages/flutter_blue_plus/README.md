@@ -496,15 +496,14 @@ FlutterBluePlus.events.onConnectionStateChanged.listen((event)) {
 
 ### Multi Device Performance
 
-We recommend using per-device queueing.
-
-Set this when your application starts, before starting any other FBP work:
+We recommend setting per-device queueing. 
 
 ```dart
+// note: call this function before starting any other FBP work
 FlutterBluePlus.setOperationQueueMode(OperationQueueMode.perDevice);
 ```
 
-This allows FlutterBluePlus to talk to multiple devices at the same time.
+This allows BLE operations on different devices to run at the same time, increasing multi-device performance.
 
 ## Mocking
 
@@ -651,18 +650,6 @@ FlutterBluePlus.setOptions(restoreState: true);
 ```
 
 **Note**: Upon being woken up, an app has around 10 seconds to complete a task. Apps that spend too much time executing in the background can be throttled back by the system or killed.
-
-### Multi-Device Communication
-
-We recommend setting per-device queueing.
-
-```dart
-FlutterBluePlus.setOperationQueueMode(OperationQueueMode.perDevice);
-```
-
-This allows BLE operations on different devices to run at the same time.
-`OperationQueueMode.global` remains the default only for backward compatibility.
-Changing it after BLE work has started throws an error.
 
 ### Android
 
