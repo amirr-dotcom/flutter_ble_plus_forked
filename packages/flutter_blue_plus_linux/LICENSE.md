@@ -1,5 +1,5 @@
 FlutterBluePlus License
-Version 1.4
+Version 1.5
 
 Copyright (c) 2026 Chip Weinberger
 All rights reserved.
@@ -31,7 +31,9 @@ Permission is hereby granted to any individual or organization to use, copy, mod
 
 **3. Commercial Use Requirement.** Use of the Software by any for-profit organization requires a commercial license under Section 3, regardless of how the Software was obtained.
 
-**4. Nonprofit & Educational Exemption.** Registered nonprofit organizations and accredited educational institutions are exempt from this requirement and may use the Software under Section 2.
+**4. Build-Time License Ping.** The Software may attempt to send limited license telemetry at build time, including the package name, app name, app version, FlutterBluePlus version, and date. This telemetry does not include source code or end-user data, and failure to send it does not prevent use or building of the Software.
+
+**5. Nonprofit & Educational Exemption.** Registered nonprofit organizations and accredited educational institutions are exempt from this requirement and may use the Software under Section 2.
 
 ---
 
