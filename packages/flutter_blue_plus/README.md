@@ -17,10 +17,7 @@ FlutterBluePlus is sponsored by [Jamcorder](https://www.jamcorder.com/).
 
 ## License
 
-FlutterBluePlus is licensed under the **[FlutterBluePlus License](./LICENSE.md)**.
-
-* **Nonprofit use**: Free for personal use, nonprofits, and educational institutions. No license required.  
-* **Commercial use**: For for-profit use, by for-profit organizations or individuals, a [Commercial License](https://jamcorder.myshopify.com/products/flutterblueplus-commercial-license) is required. This license grants *lifetime use*, covers all FlutterBluePlus packages, and includes *lifetime updates*.
+FlutterBluePlus is licensed under the **[BSD-3-Clause License](./LICENSE.md)**.
 
 ---
 
@@ -1178,3 +1175,7 @@ You need to fully stop your app and run again so that the native plugins are loa
 
 Also try `flutter clean`.
 
+#   f l u t t e r _ b l e _ p l u s _ f o r k e d  
+ #   f l u t t e r _ b l e _ p l u s _ f o r k e d  
+ #   f l u t t e r _ b l e _ p l u s _ f o r k e d  
+ 
